@@ -54,11 +54,6 @@ This is the content that will be published to `config/web-tinker.php`
 return [
 
     /*
-     * The web tinker page will be available on this path.
-     */
-    'path' => '/tinker',
-
-    /*
      * Possible values are 'auto', 'light' and 'dark'.
      */
     'theme' => 'auto',
@@ -81,6 +76,7 @@ return [
      * application directory.
      */
     'config_file' => env('PSYSH_CONFIG', null),
+
 ];
 ```
 
